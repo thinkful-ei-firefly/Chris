@@ -5,35 +5,35 @@ function crackingTheCode(code) {
     let decoded = '';
         words.forEach(function(words) {
             
-            if (word[0] == 'a') {
+            if (word[0] === 'a') {
                 decoded += word[1];
             }
             
-            else if (word[0] == 'b') {
+            else if (word[0] === 'b') {
                 decoded += word[2];
             }
             
-            else if (word[0] == 'c') {
+            else if (word[0] === 'c') {
                 decoded += word[3];
             }
             
-            else if (word[0] == 'd') {
+            else if (word[0] === 'd') {
                 decoded += word[4];
             }
             
-            else if (word[0] == 'e') {
+            else if (word[0] === 'e') {
                 decoded += word[5];
             }
 
-            else if (word[0] == 'f') {
+            else if (word[0] === 'f') {
                 decoded += word[6];
             }
 
-            else if (word[0] == 'g') {
+            else if (word[0] === 'g') {
                 decoded += word[7];
             }
 
-            else if (word[0] == 'h') {
+            else if (word[0] === 'h') {
                 decoded += word[8];
             }
 
